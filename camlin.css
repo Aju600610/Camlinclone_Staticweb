@@ -1,0 +1,634 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.testclass1{
+    text-decoration: none;
+    color: #9c9090;    
+    padding: 10%;
+    text-align: center;
+
+}
+
+.testclass1 h1{
+    align-items: center;
+    color: grey;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+}
+
+.header{
+
+    width: 100%;
+    border-bottom: #ece8c5;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.hpart1{
+    width: 100%;
+    
+    background-color: #df7e1b;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+
+.htbn{
+    height: 2;
+    text-align: right;
+   
+
+}
+
+.htbn ul{
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.htbn ul li{
+
+    display:inline;
+    width: 125px;
+    height: 5px;
+    }
+
+
+
+.hnavbarbtn ul {
+    list-style: none;
+    
+}
+
+
+.htbn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding:25px;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+
+
+}
+
+.htbn a:hover{
+    text-decoration: solid;
+    text-decoration: underline;
+    
+
+}
+
+
+.hpart2{
+    width: 100%;
+}
+
+.hlogo{
+    width: 27%;
+    float: left;
+    padding-left: 3%;
+    padding-top:1%;
+    padding-bottom:1%;
+       
+
+    }
+
+
+
+
+.hnavbar{
+    width: 70%;
+    float: left;
+   
+    padding-top: 2%;
+
+}
+
+
+.hnavbar ul{
+    list-style: none;
+    
+
+}
+
+.hnavbar ul li{
+    float: left;
+    width: 140px;
+    height: 15px;
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+
+.hnavbar a{
+    text-decoration: none;
+}
+
+.hnavbar a:hover{
+    color: black;
+    cursor: pointer;
+}
+    
+   
+
+
+.bodypart{
+    background-color: brown;
+    width: 100%;
+}
+
+
+.bpart1{
+    background-image: url(./bpgirlanddog.jpg) ;
+    width: 1217px;
+    height: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bpart1left{
+    width: 50%;
+    float: left;
+    color: #df7e1b;
+ 
+    
+      
+
+}
+
+.bpart1left h1{
+    text-align: center;
+    padding-top: 20%;
+}
+
+.bpart1left h2{
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+
+.bpart1right{
+    width: 50%;
+    float: left;
+    
+
+}
+
+
+.bpart2{
+    background-image: url(https://www.camlinfs.com/Uploads/Images/banner-cfs-our-world.jpg) ;
+    width: 1217px;
+    height: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.bpart2right, .bpart4left{
+    width: 50%;
+    float:right;
+    padding-top: 5%;
+    padding-left: 3%;
+    font-family:'sans-serif';
+
+
+}
+
+.bpart2right h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+
+.bpart2right h1, .bpart4left h1{
+    color:#df7e1b;
+}
+
+.bpart2right p, .bpart4left p{
+    
+    color:grey;
+    padding-bottom: 2%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.bparticon ul{
+    list-style: none;
+    color:grey;
+    
+    width: 600px;
+    height: 5px;
+
+
+}
+
+.bparticon ul li{
+
+    display:inline;
+    padding-left: 50px;
+   
+   
+    
+    }
+
+
+.bparticon a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  
+}
+
+.bpartbutton{
+    padding-top: 15%;
+}
+
+.bpartbutton button{
+    background-color: #df7e1b;
+    border: none;
+    border-radius:10px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+.bpartbutton button:hover{
+    background-color: #b5600c;
+
+}
+
+
+
+
+.bparticon a:hover{
+    text-decoration: solid;
+    text-decoration: underline;
+    
+
+}
+
+
+.bpart3{
+    background-image: url(./cfsmap.jpg) ;
+    width: 1217px;
+    height: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+}
+
+.bpart3 h1{
+    color: #df7e1b;
+    align-items: center;
+    font-family:'sans-serif';
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+.bpart3right{
+    width: 45%;
+    float:right;
+    
+    
+
+}
+
+
+.bpart3right h4{
+    padding:2%;
+}
+
+.bpart3right p{
+    padding:1%;
+}
+
+
+.address{
+    padding:2%;
+    margin-left:35%;
+    margin-top:20%;
+    background-color: #df7e1b;
+    color: white;
+    width:fit-content;
+    border-radius: 5px;
+    opacity: .5;
+}
+
+.bpart4{
+    background-image: url(./bppic4.jpg) ;
+    width: 1217px;
+    height: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.bpart4left{
+    width: 50%;
+    float: left;
+    
+    
+
+}
+
+.bpart4right{
+    width: 50%;
+    float: left;
+    
+
+}
+
+.bpart5{
+    background-color: white;
+    width: 100%;
+    height: 699px;
+    padding-top: 5%;
+
+}
+
+
+.bpart5h2, .bpart5p2{
+    color: #df7e1b;
+    font-family: 'Arial', Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.bpart5p1, .bpart5p2{
+    padding-top: 2%;
+}
+
+.bpart5p1{
+    color: grey;
+    line-height: 1.6;
+}
+    
+
+.bpart5p2{
+    font-weight: bold;
+}
+
+.bpart5decs{
+    padding-bottom: 3%;;
+}
+
+
+
+.bpart5animationcontainer1{
+    width: 100%;
+    height: auto;
+
+  
+    
+    
+}
+
+.bpart5animationcontainer1>div {
+    width: 20%;
+    height: 256px;
+    float: left;
+  
+}
+
+
+.animationholder1{
+   
+    background-image: url(./animationf1.jpg);
+ 
+}
+
+.animationholder1:hover{
+    
+    background-image: url(./animationb1.jpg);
+    background-repeat: no-repeat; 
+   
+}
+.animationholder2{
+   
+    background-image: url(./animationf2.jpg);
+ 
+}
+
+.animationholder2:hover{
+    
+    background-image: url(./animationb2.jpg);
+    background-repeat: no-repeat; 
+   
+}
+
+.animationholder3{
+   
+    background-image: url(./animationf3.jpg);
+ 
+}
+
+.animationholder3:hover{
+    
+    background-image: url(./animationb3.jpg);
+    background-repeat: no-repeat; 
+   
+}
+
+.animationholder4{
+   
+    background-image: url(./animationf4.jpg);
+ 
+}
+
+.animationholder4:hover{
+    
+    background-image: url(./animationb4.jpg);
+    background-repeat: no-repeat; 
+   
+}
+
+.animationholder5{
+   
+    background-image: url(./animationf5.jpg);
+ 
+}
+
+.animationholder5:hover{
+    
+    background-image: url(./animationb5.jpg);
+    background-repeat: no-repeat; 
+   
+}
+
+.animationholder6{
+   
+    background-image: url(./animationf6.jpg);
+ 
+}
+
+.animationholder6:hover{
+    
+    background-image: url(./animationb6.jpg);
+    background-repeat: no-repeat; 
+   
+}
+
+.animationholder7{
+   
+    background-image: url(./animationf7.jpg);
+ 
+}
+
+.animationholder7:hover{
+    
+    background-image: url(./animationb7.jpg);
+    background-repeat: no-repeat; 
+   
+}
+
+.animationholder8{
+   
+    background-image: url(./animationf8.jpg);
+ 
+}
+
+.animationholder8:hover {
+    
+    background-image: url(./animationb8.jpg);
+    background-repeat: no-repeat; 
+   
+   
+}
+
+.bpart5btn{
+    
+    border: none;
+    border-radius:10px;
+    font-size: 20px;
+    color: #FFFFFF;   
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+   
+    
+}
+
+
+.dummy{
+    width: 505px;
+    height:252px;
+    background-color: chartreuse;
+
+}
+
+.iframecontainer{
+    width: 100%;
+    height: 355px;
+    background-color: aqua;
+}
+
+
+.iframeholder, .iframerightside{
+    width: 50%;
+    height: 256px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 50px;
+    padding-top: 20px;
+    
+}
+
+.copyrights{
+    width: 48%;
+    float: left;
+    color: grey;
+    padding-left: 2%;
+    
+    
+}
+
+.fbtn{
+    width: 50%;
+    float: left;
+   
+
+}
+
+.fbtn ul{
+    list-style: none;
+   
+   
+
+}
+
+.fbtn ul li{
+   
+    display:inline;
+    width:125px;
+    height: 25px;
+
+}
+
+.fbtna{
+    text-decoration: none;
+    color: #df7e1b;
+    padding:25px;
+    
+}
+
+.fbtn:hover{
+    text-decoration:solid;
+    text-decoration: underline;
+    
+}
+
