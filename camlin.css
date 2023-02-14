@@ -32,6 +32,11 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100;
     
 }
 
@@ -96,6 +101,7 @@
 
 .hpart2{
     width: 100%;
+   
 }
 
 .hlogo{
@@ -116,6 +122,7 @@
     float: left;
    
     padding-top: 2%;
+    
 
 }
 
@@ -150,8 +157,9 @@
 
 
 .bodypart{
-    background-color: brown;
+    
     width: 100%;
+    margin-top: 131px;
 }
 
 
@@ -370,7 +378,7 @@
 }
 
 .bpart5{
-    background-color: white;
+   
     width: 100%;
     height: 699px;
     padding-top: 5%;
@@ -415,7 +423,7 @@
 
 .bpart5animationcontainer1>div {
     width: 20%;
-    height: 256px;
+    height: 245px;
     float: left;
   
 }
@@ -540,43 +548,53 @@
 }
 
 
-.dummy{
-    width: 505px;
-    height:252px;
-    background-color: chartreuse;
-
-}
 
 .iframecontainer{
     width: 100%;
     height: 355px;
-    background-color: aqua;
+    
+    display: flex;
+
+    
 }
 
 
-.iframeholder, .iframerightside{
+.iframeholder, .iframeright{
     width: 50%;
     height: 256px;
     
 
 }
 
+.iframeright{
+    padding-top:5%;
+    padding-left: 2%;;
+}
+
+
+.iframeholder{
+  
+
+  height: 100%;
+  border: none;
+}
+
+.iframeright h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #df7e1b;
 
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.iframeright p{
+    padding-top: 1%;
+    color: #807f7d;
+    line-height: 1.6;
+    
+}
 
 
 .footer{
