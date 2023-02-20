@@ -20,7 +20,7 @@
 
 .container{
     display:flex;
-    flex-direction: column;    
+    flex-direction: row;    
     flex-wrap: wrap;
 }
 
@@ -37,22 +37,28 @@
     left: 0;
     background-color: white;
     z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
 .hpart1{
-    width: 100%;
-    
+    width: 99%;    
     background-color: #df7e1b;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    align-items: center;
+    padding: 1%;
+   
+    
+   
     
 }
 
 
 .htbn{
-    height: 2;
-    text-align: right;
+   
+    text-align: left;
+    float: right;
+  
    
 
 }
@@ -60,17 +66,12 @@
 .htbn ul{
 
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 
-.htbn ul li{
 
-    display:inline;
-    width: 125px;
-    height: 5px;
-    }
 
 
 
@@ -119,9 +120,10 @@
 
 .hnavbar{
     width: 70%;
-    float: left;
+    
    
     padding-top: 2%;
+    float: right;
     
 
 }
@@ -129,12 +131,14 @@
 
 .hnavbar ul{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
     
 
 }
 
 .hnavbar ul li{
-    float: left;
     width: 140px;
     height: 15px;
     color: #666666;
@@ -146,6 +150,7 @@
 
 .hnavbar a{
     text-decoration: none;
+    width: 16%;
 }
 
 .hnavbar a:hover{
@@ -165,7 +170,7 @@
 
 .bpart1{
     background-image: url(./bpgirlanddog.jpg) ;
-    width: 1217px;
+    width: 100%;
     height: 425px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,20 +208,22 @@
 
 .bpart2{
     background-image: url(https://www.camlinfs.com/Uploads/Images/banner-cfs-our-world.jpg) ;
-    width: 1217px;
+    width: 100%;
     height: 425px;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 
 
 .bpart2right, .bpart4left{
-    width: 50%;
+    width: 47%;
     float:right;
     padding-top: 5%;
     padding-left: 3%;
     font-family:'sans-serif';
+   
 
 
 }
@@ -242,8 +249,7 @@
 .bparticon ul{
     list-style: none;
     color:grey;
-    
-    width: 600px;
+   
     height: 5px;
 
 
@@ -262,6 +268,7 @@
 .bparticon a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    width: 25%;
   
 }
 
@@ -300,11 +307,12 @@
 
 .bpart3{
     background-image: url(./cfsmap.jpg) ;
-    width: 1217px;
+    width: 100%;
     height: 425px;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 2%;
+   
 }
 
 .bpart3 h1{
@@ -352,10 +360,12 @@
 
 .bpart4{
     background-image: url(./bppic4.jpg) ;
-    width: 1217px;
+    width: 100%;
     height: 425px;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -382,6 +392,8 @@
     width: 100%;
     height: 699px;
     padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -425,6 +437,8 @@
     width: 20%;
     height: 245px;
     float: left;
+    display: flex;
+    flex-wrap: wrap;
   
 }
 
@@ -542,7 +556,7 @@
     width: 160px;
     text-align: center;
     text-decoration: none;
-    display: none;
+   
    
     
 }
@@ -603,6 +617,8 @@
     background-color: #f5f5f5;
     height: 50px;
     padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -624,6 +640,8 @@
 
 .fbtn ul{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
    
    
 
@@ -632,15 +650,17 @@
 .fbtn ul li{
    
     display:inline;
-    width:125px;
+   
     height: 25px;
 
 }
 
-.fbtna{
+.fbtn a{
     text-decoration: none;
     color: #df7e1b;
     padding:25px;
+    width: 33%;
+    
     
 }
 
